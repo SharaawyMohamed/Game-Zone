@@ -1,3 +1,6 @@
+using GameZone.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace GameZone
 {
 	public class Program
@@ -8,6 +11,15 @@ namespace GameZone
 
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
+
+			#region Registration Database
+			
+			builder.Services.AddDbContext<GameDbContext>(options =>
+			{
+				options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+			});
+			#endregion
+
 
 			var app = builder.Build();
 
