@@ -1,6 +1,3 @@
-using GameZone.Data;
-using Microsoft.EntityFrameworkCore;
-
 namespace GameZone
 {
 	public class Program
