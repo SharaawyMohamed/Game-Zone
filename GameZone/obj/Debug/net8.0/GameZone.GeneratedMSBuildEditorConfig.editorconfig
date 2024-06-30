@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\ROUTE\Projects\Game_Zone\GameZone
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/ROUTE/Projects/Game_Zone/GameZone/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[F:/ROUTE/Projects/Game_Zone/GameZone/Views/Games/CreateGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlR2FtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/ROUTE/Projects/Game_Zone/GameZone/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[F:/ROUTE/Projects/Game_Zone/GameZone/Views/Games/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/ROUTE/Projects/Game_Zone/GameZone/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/ROUTE/Projects/Game_Zone/GameZone/Views/Shared/Error.cshtml]

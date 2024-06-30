@@ -135,3 +135,4 @@ F:\ROUTE\Projects\Game_Zone\GameZone\obj\Debug\net8.0\refint\GameZone.dll
 F:\ROUTE\Projects\Game_Zone\GameZone\obj\Debug\net8.0\GameZone.pdb
 F:\ROUTE\Projects\Game_Zone\GameZone\obj\Debug\net8.0\GameZone.genruntimeconfig.cache
 F:\ROUTE\Projects\Game_Zone\GameZone\obj\Debug\net8.0\ref\GameZone.dll
+F:\ROUTE\Projects\Game_Zone\GameZone\bin\Debug\net8.0\libman.json

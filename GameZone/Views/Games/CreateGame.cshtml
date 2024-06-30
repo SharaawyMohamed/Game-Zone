@@ -1,0 +1,43 @@
+﻿@model CreateGameVM
+@{
+	ViewData["Title"] = "Create Game";
+}
+<h5 style="margin-top:15px">
+	<i class="bi bi-file-plus-fill"></i>
+	Create A New Game
+</h5>
+<form asp-controller="Games" asp-action="CreateGame">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label asp-for="Name" class="form-label mt-4"></label>
+				<input type="text" class="form-control" asp-for="Name" placeholder="Enter Game's Name">
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+			
+			<div class="form-group">
+				<label asp-for="CategoryId" class="form-label mt-4"></label>
+				<select class="form-select" asp-for="CategoryId" asp-items="Model.Categories">
+					<option value="null">-----------------Select Category Id----------------------</option>
+					@{
+						foreach (var catid in Model.Categories)
+						{
+							// <option>@Console.WriteLine(catid)</option>
+						}
+						}
+				</select>
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+			<button type="submit" class="btn btn-primary btn-lg text-Wight mt-4	">Create</button>
+		</div>
+		
+		<div class="col-md-6">
+			<div class="form-group">
+				<label asp-for="CategoryId" class="form-label mt-4"></label>
+				<input type="text" class="form-control" asp-for="Name" placeholder="Enter Game's Name">
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+			<button type="submit" class="btn btn-primary btn-lg text-Wight mt-4	">Create</button>
+		</div>
+	</div>
+</form>
