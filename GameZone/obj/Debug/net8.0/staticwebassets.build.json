@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v6cJPaq48IOk29/F8J8JHHffkbYb1OJjmcBioBJd2Hc=",
+  "Hash": "DVlrisvNFl2e/OIvilHm4taYGR3c1DEJwt0iCpdRXWg=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\Files\\Images\\0cc548f8-5c24-45cb-b5e7-35bd9fd91348.jpeg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "Files/Images/0cc548f8-5c24-45cb-b5e7-35bd9fd91348.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Images\\0cc548f8-5c24-45cb-b5e7-35bd9fd91348.jpeg"
     },
     {
       "Identity": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\js\\site.js",

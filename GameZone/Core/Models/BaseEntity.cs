@@ -1,4 +1,4 @@
-﻿namespace GameZone.Models
+﻿namespace GameZone.Core.Models
 {
     public class BaseEntity
     {

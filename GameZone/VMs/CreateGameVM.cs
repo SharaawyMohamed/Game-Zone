@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using GameZone.Attributes;
+using GameZone.Settings;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 
 namespace GameZone.VMS
 {
@@ -9,9 +12,12 @@ namespace GameZone.VMS
         public string Name { get; set; } = string.Empty;
         [Display(Name="Category")]
         public int CategoryId { get; set; }
-        public List<int> SelectedDevices { get; set; } = new List<int>();
+		[Display(Name = "Device")]
+		public List<int> SelectedDevices { get; set; } = default;
         public IEnumerable<SelectListItem> Categories { get; set; } = Enumerable.Empty<SelectListItem>();
         public IEnumerable<SelectListItem> Devices { get; set; } = Enumerable.Empty<SelectListItem>();
+
+        [AllowedExtentionAttributes(FileSettings.AllowedExtension)]
         public IFormFile Cover { get; set; } = default;
         public string Description { get; set; } = string.Empty;
     }

@@ -1,6 +1,9 @@
+using GameZone.Core.Data;
+using GameZone.Services;
+
 namespace GameZone
 {
-	public class Program
+    public class Program
 	{
 		public static void Main(string[] args)
 		{
@@ -17,7 +20,11 @@ namespace GameZone
 			});
 			#endregion
 
-
+			#region Services
+			builder.Services.AddScoped<ICategoryService, CategoryService>();
+			builder.Services.AddScoped<IDeviceService, DeviceService>();
+			builder.Services.AddScoped<IGamesServices, GamesServices>();
+			#endregion
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.

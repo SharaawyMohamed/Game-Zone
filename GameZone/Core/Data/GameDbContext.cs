@@ -1,7 +1,7 @@
-﻿using GameZone.Models;
+﻿using GameZone.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GameZone.Data
+namespace GameZone.Core.Data
 {
     public class GameDbContext : DbContext
     {
@@ -17,7 +17,7 @@ namespace GameZone.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<GameDevice>().HasKey(k => new { k.GameId, k.DeviceId });// create composit primary key
-            modelBuilder.Entity<Categorey>().HasData   (new Categorey[] {
+            modelBuilder.Entity<Categorey>().HasData(new Categorey[] {
             new Categorey { Id = 1, Name = "Action" },
             new Categorey { Id = 2, Name = "Adventure" },
             new Categorey { Id = 3, Name = "RPG" },
@@ -28,9 +28,9 @@ namespace GameZone.Data
             new Categorey { Id = 8, Name = "Racing" },
             new Categorey { Id = 9, Name = "Shooter" },
             new Categorey { Id = 10, Name = "Horror" }
-        
+
         });
-            modelBuilder.Entity<Device>().HasData(new Models.Device[]
+            modelBuilder.Entity<Device>().HasData(new Device[]
             {
                 new Device { Id = 1, Name = "PC", ICone = "pc_icon.png" },
             new Device { Id = 2, Name = "PlayStation", ICone = "ps_icon.png" },

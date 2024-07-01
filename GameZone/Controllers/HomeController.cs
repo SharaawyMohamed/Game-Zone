@@ -1,4 +1,4 @@
-using GameZone.Models;
+using GameZone.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
