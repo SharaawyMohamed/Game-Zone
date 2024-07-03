@@ -18,6 +18,7 @@ namespace GameZone.VMS
         public IEnumerable<SelectListItem> Devices { get; set; } = Enumerable.Empty<SelectListItem>();
 
         [AllowedExtentionAttributes(FileSettings.AllowedExtension)]
+        [AllowedImageSize(FileSettings.MaxFileSizeInByets)]
         public IFormFile Cover { get; set; } = default;
         public string Description { get; set; } = string.Empty;
     }

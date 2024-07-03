@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\js\\filesize-validator.js",
+      "PackagePath": "staticwebassets\\js\\filesize-validator.js"
+    },
+    {
+      "Id": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\js\\game-form.js",
+      "PackagePath": "staticwebassets\\js\\game-form.js"
+    },
+    {
       "Id": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

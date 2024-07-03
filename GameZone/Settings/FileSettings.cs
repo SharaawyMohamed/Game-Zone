@@ -4,7 +4,7 @@
 	{
 		public const string ImagePath = "/Files/Images";
 		public const string AllowedExtension = ".jpg,.png,.jpeg";
-		public const long MaxFileSizeInMB = 1;
-		public const long MaxFileSizeInByets = MaxFileSizeInMB * (1024 * 10242);
+		public const int MaxFileSizeInMB = 1;
+		public const int MaxFileSizeInByets = MaxFileSizeInMB * (1024 * 10242);
 	}
 }

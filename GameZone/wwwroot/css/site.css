@@ -28,3 +28,39 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Start Custmome Style */
+#cover-preview {
+    vertical-align:middle;
+    display: block;
+    max-width: 400px;
+    max-height: 500px;
+    height: auto;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+}
+
+#cover-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

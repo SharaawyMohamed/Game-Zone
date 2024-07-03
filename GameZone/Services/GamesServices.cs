@@ -25,7 +25,7 @@ namespace GameZone.Services
 			// Mapping
 			Game game = new Game()
 			{
-				Name = CoverName,
+				Name = model.Name,
 				CatId = model.CategoryId,
 				Cover = CoverName,
 				Description = model.Description,
@@ -35,6 +35,11 @@ namespace GameZone.Services
 
 			context.Add(game);
 			context.SaveChanges();
+		}
+
+		public  IEnumerable<Game> GetAllGames()
+		{
+			return  context.Games.AsNoTracking().ToList();
 		}
 	}
 }
