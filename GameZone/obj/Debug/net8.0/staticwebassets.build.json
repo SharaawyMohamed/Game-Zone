@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q5TnpoX2QT3vOKJqF+B3mRwvwXG08EdW9z369aRqbD8=",
+  "Hash": "Ly6i1D71HJ5RLZirwY3qKxdD6sy8sAe9BpVhj0CZ2ik=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameZone.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\c248a469-4db6-4917-aa63-5d6bb9d18927.jpeg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "c248a469-4db6-4917-aa63-5d6bb9d18927.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c248a469-4db6-4917-aa63-5d6bb9d18927.jpeg"
     },
     {
       "Identity": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\css\\bootstrap.min.css",
@@ -110,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\Files\\Images\\0cc548f8-5c24-45cb-b5e7-35bd9fd91348.jpeg",
-      "SourceId": "GameZone",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\",
-      "BasePath": "_content/GameZone",
-      "RelativePath": "Files/Images/0cc548f8-5c24-45cb-b5e7-35bd9fd91348.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Files\\Images\\0cc548f8-5c24-45cb-b5e7-35bd9fd91348.jpeg"
     },
     {
       "Identity": "F:\\ROUTE\\Projects\\Game_Zone\\GameZone\\wwwroot\\js\\filesize-validator.js",

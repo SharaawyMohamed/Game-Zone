@@ -1,4 +1,5 @@
 ﻿using GameZone.Core.Models;
+using GameZone.Settings;
 using GameZone.VMS;
 
 namespace GameZone.Services
@@ -12,13 +13,13 @@ namespace GameZone.Services
 		{
 			context = _context;
 			webhostenvironment = _webhostenvironment;
-			ImagePath = $"{webhostenvironment.WebRootPath}{ImagePath}";// == path wwwroot
+			ImagePath = $"{webhostenvironment.WebRootPath}{FileSettings.ImagePath}";// == path wwwroot
 		}
 
 		public async Task CreateGame(CreateGameVM model)
 		{
 			var CoverName = $"{Guid.NewGuid()}{Path.GetExtension(model.Cover.FileName)}";
-			var CoverPath = Path.Combine(ImagePath, CoverName);
+			var CoverPath = Path.Combine(ImagePath,CoverName);
 			using var Stream = File.Create(CoverPath);
 			await model.Cover.CopyToAsync(Stream);
 			Stream.Dispose();
