@@ -40,7 +40,7 @@ namespace GameZone.Services
 
 		public  IEnumerable<Game> GetAllGames()
 		{
-			return  context.Games.AsNoTracking().ToList();
+			return  context.Games.Include(c=>c.Categoriy).Include(c=>c.Devices).ThenInclude(d=>d.Device).AsNoTracking().OrderBy(g=>g.Name).ToList();
 		}
 	}
 }

@@ -6,15 +6,25 @@
 <div class="row">
 	@if (Model.Any())
 	{
-
 		@foreach (var game in Model)
 		{
-			<p>@game.Cover</p>
 			<div class="col-lg-4 col-md-6 mt-5">
-				<div class="card border-primary">
-					<div class="card-body" style="background-image: url('@Url.Content($"{FileSettings.ImagePath}/{game.Cover}")'); background-size: cover;">
-						<h4 class="card-title">@game.Name</h4>
-						<p class="card-text">@game.Description</p>
+				<div class="card border-primary mb-3">
+					<div class="card-body" style="background-image: url('@Url.Content($"{FileSettings.ImagePath}/{game.Cover}")'); background-size: cover;background-position:center;height:300px;">
+						<div class="h-100">
+							<span class="badge bg-dark rounded-0">@game.Categoriy?.Name</span>
+						</div>
+					</div>
+					<div class="card-footer text-muted d-flex justify-content-between align-items-center">
+						<h5>@game.Name</h5>
+						<div>
+							@{
+								foreach(var gamedefice in game.Devices)
+								{
+									<i class="@gamedefice.Device?.ICone me-2 fs-4"></i>
+								}
+							}
+						</div>
 					</div>
 				</div>
 			</div>
